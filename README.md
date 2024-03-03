@@ -3,7 +3,7 @@
 ### The project is a JavaScript-based room booking system allowing users to manage rooms, tables, and bookings within a venue.
 
 ![Room Booking System Preview](screenshot.png)
-You can check it out [here]().
+You can check it out [here](https://d-vokic.github.io/Table-Room-Booking-System/).
 
 ## Author
 
@@ -16,12 +16,12 @@ This README provides an overview of the room booking system implemented in JavaS
 
 ## Contents
 
-- Introduction
-- Features
-- Code Structure
-- Usage
-- Contributing
-- License
+- [Introduction](#introduction)
+- [Features](#features)
+- [Code Structure](#code-structure)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Introduction
 
