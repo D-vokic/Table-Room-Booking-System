@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Booking System</title>
+
+    <!-- Favicon -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="bookNowBtn" class="book-now">Book Now</div>
+      <div id="bookNowForm" class="book-now-form">
+        <input type="text" id="bookRoomInput" placeholder="Enter room name" />
+        <input type="text" id="bookTableInput" placeholder="Enter table name" />
+        <input type="date" id="bookStartDate" placeholder="Start date" />
+        <input type="date" id="bookEndDate" placeholder="End date" />
+        <button id="addBookRoomBtn">Add Room and Table</button>
+        <button id="resetBtn">Reset</button>
+        <div id="bookMessage"></div>
+      </div>
+      <div id="message" style="display: none"></div>
+    </div>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

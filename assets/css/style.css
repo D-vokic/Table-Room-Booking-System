@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(228, 203, 228, 0.1);
+}
+
+.container {
+  width: 300px;
+  margin: 4.5rem auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.container .book-now {
+  text-transform: capitalize;
+  color: #111;
+  background-color: #f1c152;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  padding: 1rem 1.5rem;
+  display: block;
+  font-weight: 700;
+  transition: 0.5s ease;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.container .book-now:hover {
+  color: #f1c152;
+  background-color: #111;
+}
+.container .book-now-form {
+  display: none;
+}
+.container .book-now-form input[type=text], .container .book-now-form input[type=date] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border-bottom: 2px solid #ccc;
+  background-color: #f4f4f4;
+  transition: border-bottom-color 0.3s ease;
+}
+.container .book-now-form input[type=text]:focus, .container .book-now-form input[type=text]:focus, .container .book-now-form input[type=date]:focus, .container .book-now-form input[type=date]:focus {
+  outline: none;
+  border-color: #28a745;
+}
+.container .book-now-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.container .book-now-form button:hover {
+  background-color: #218838;
+}
+.container .book-now-form #addBookRoomBtn {
+  background-color: #007bff;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+.container .book-now-form #addBookRoomBtn:hover {
+  background-color: #0056b3;
+}
+.container .book-now-form #bookMessage {
+  margin-top: 20px;
+}
+.container .book-now-form #bookMessage.success {
+  color: green;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.container .book-now-form #bookMessage.error {
+  color: red;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.container #message {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=book_now.css.map */
