@@ -1,7 +1,7 @@
 The MIT License (MIT)
 =====================
 
-Copyright (c) 2024 [https://duskovokic.com/] (Duško Vokić)
+Copyright (c) 2024 [Duško Vokić] ([Duško Vokić](https://duskovokic.com/))
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
